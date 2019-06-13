@@ -8,6 +8,10 @@ import 'package:flutter_zhihu/notice/notice_page.dart';
 import '../global_config.dart';
 import 'Navigation_icon_view.dart';
 
+/**
+ *  启动页
+ *
+ */
 class Index extends StatefulWidget {
   @override
   State<Index> createState() => new _IndexState();
