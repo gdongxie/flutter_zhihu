@@ -10,7 +10,7 @@ class _FollowState extends State<Follow> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      body: Image.asset("images/flutter.png"),
+      body: Image.asset("images/flutter.png",fit: BoxFit.cover,),
     );
   }
 }
