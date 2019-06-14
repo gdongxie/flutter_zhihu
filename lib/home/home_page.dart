@@ -30,19 +30,19 @@ class _HomePageState extends State<HomePage> {
                 },
                 icon: new Icon(
                   Icons.search,
-                  color: GlobalConfig.fontColor,
+                  color: GlobalConfig.titleColor,
                   size: 16.0,
                 ),
                 label: new Text(
                   "坚果R1摄像头损坏",
-                  style: new TextStyle(color: GlobalConfig.fontColor),
+                  style: new TextStyle(color: GlobalConfig.titleColor),
                 )),
           ),
           new Container(
             decoration: new BoxDecoration(
                 border: new BorderDirectional(
                     start: new BorderSide(
-                        color: GlobalConfig.fontColor, width: 1.0))),
+                        color: GlobalConfig.titleColor, width: 1.0))),
             height: 14.0,
             width: 1.0,
           ),
@@ -56,12 +56,12 @@ class _HomePageState extends State<HomePage> {
             },
             icon: new Icon(
               Icons.border_color,
-              color: GlobalConfig.fontColor,
+              color: GlobalConfig.titleColor,
               size: 14.0,
             ),
             label: new Text(
               "提问",
-              style: new TextStyle(color: GlobalConfig.fontColor),
+              style: new TextStyle(color: GlobalConfig.titleColor),
             ),
           ))
         ],
